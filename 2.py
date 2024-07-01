@@ -16,7 +16,7 @@ class Node:
         self.item = item  # Initialize with an Item object
         self.next = None   # Pointer to the next node in the list
 
-# LinkedList class represents a singly linked list of items111
+# LinkedList class represents a singly linked list of items
 class LinkedList:
     def __init__(self):
         self.head = None   # Initialize an empty linked list
