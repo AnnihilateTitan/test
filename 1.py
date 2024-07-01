@@ -16,7 +16,7 @@ class Node:
         self.item = item  # Initialize with an Item object
         self.next = None   # Pointer to the next node in the list
 
-# LinkedList class represents a singly linked list of items
+# LinkedList class represents a singly linked list of items111
 class LinkedList:
     def __init__(self):
         self.head = None   # Initialize an empty linked list
@@ -27,7 +27,7 @@ class LinkedList:
         new_node.next = self.head   # Set the new node's next to current head
         self.head = new_node    # Update the head to the new node
 
-    # Method to remove an item from the linked list by item_ID
+    # Method to remove an item from the linked list by item_ID111
     def remove_item(self, item_ID):
         current = self.head
         previous = None
